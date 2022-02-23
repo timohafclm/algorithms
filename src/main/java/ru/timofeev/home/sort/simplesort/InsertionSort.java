@@ -1,6 +1,8 @@
 package ru.timofeev.home.sort.simplesort;
 
-public class InsertionSort extends SimpleSort {
+import ru.timofeev.home.sort.Sort;
+
+public class InsertionSort extends Sort {
 
     public InsertionSort(Long[] array) {
         super(array);

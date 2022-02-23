@@ -1,13 +1,13 @@
-package ru.timofeev.home.sort.simplesort;
+package ru.timofeev.home.sort;
 
 import java.util.Arrays;
 
-public abstract class SimpleSort {
+public abstract class Sort {
 
     protected final Long[] array;
     protected final int elementsNumber;
 
-    public SimpleSort(Long[] array) {
+    public Sort(Long[] array) {
         this.array = array;
         this.elementsNumber = array.length;
     }

@@ -1,6 +1,8 @@
 package ru.timofeev.home.sort.simplesort;
 
-public class BubbleSort extends SimpleSort {
+import ru.timofeev.home.sort.Sort;
+
+public class BubbleSort extends Sort {
 
     public BubbleSort(Long[] array) {
         super(array);

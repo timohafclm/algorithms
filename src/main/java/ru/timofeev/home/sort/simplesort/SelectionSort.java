@@ -1,6 +1,8 @@
 package ru.timofeev.home.sort.simplesort;
 
-public class SelectionSort extends SimpleSort{
+import ru.timofeev.home.sort.Sort;
+
+public class SelectionSort extends Sort {
 
     public SelectionSort(Long[] array) {
         super(array);
