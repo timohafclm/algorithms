@@ -1,4 +1,4 @@
-package ru.timofeev.home.search;
+package ru.timofeev.home.search.binarysearch;
 
 import java.util.stream.Stream;
 

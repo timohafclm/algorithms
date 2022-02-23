@@ -1,6 +1,8 @@
 package ru.timofeev.home.search;
 
 import org.junit.jupiter.api.Test;
+import ru.timofeev.home.search.binarysearch.BinarySearch;
+import ru.timofeev.home.search.binarysearch.RecursionBinarySearch;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package ru.timofeev.home.search;
+package ru.timofeev.home.search.binarysearch;
 
 public class BinarySearch extends CommonBinarySearch {
 
@@ -6,6 +6,7 @@ public class BinarySearch extends CommonBinarySearch {
         super(array);
     }
 
+    @Override
     public int search(Long key) {
         int lowerBound = 0;
         int upperBound = sortedArray.length - 1;

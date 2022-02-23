@@ -1,4 +1,6 @@
-package ru.timofeev.home.search;
+package ru.timofeev.home.search.binarysearch;
+
+import ru.timofeev.home.search.binarysearch.CommonBinarySearch;
 
 public class RecursionBinarySearch extends CommonBinarySearch {
 
